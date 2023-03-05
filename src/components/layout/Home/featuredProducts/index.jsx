@@ -10,7 +10,7 @@ export default function FeaturedProducts() {
   return (
     <div className="container-featuredproducts">
       <div className="container-featuredproducts-h3">
-        <h2>Features Products</h2>
+        <h3>Features Products</h3>
       </div>
       <div className="container-featuredproducts-card">
         <div className="container-featuredproducts-chair">

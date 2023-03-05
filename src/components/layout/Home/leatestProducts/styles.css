@@ -1,0 +1,87 @@
+.container-leatestproducts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-leatestproducts-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 58px;
+  margin-top: 19px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #151875;
+  cursor: pointer;
+}
+
+.container-leatestproducts-h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Josefin Sans";
+  font-size: 42px;
+  line-height: 49px;
+  color: #1a0b5b;
+  margin-top: 129px;
+}
+
+.container-leatestproducts-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 40px;
+  justify-content: center;
+  gap: 29px;
+}
+
+.container-leatestproducts-cardimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 360px;
+  height: 270px;
+  background: #f6f7fb;
+}
+
+.container-leatestproducts-chair-details {
+  background-color: #ffffff;
+  width: 360px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 8.5px;
+  padding-top: 16px;
+}
+
+.container-leatestproducts-chair-details h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #151875;
+  margin-right: 70px;
+}
+
+.container-leatestproducts-chair-details p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #151875;
+}
+
+.container-leatestproducts-chair-details span {
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  color: #fb2448;
+  text-decoration: line-through;
+}

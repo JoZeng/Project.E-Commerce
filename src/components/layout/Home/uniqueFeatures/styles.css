@@ -1,0 +1,109 @@
+.container-uniquefeatures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f1f0ff;
+  margin-top: 135px;
+}
+
+.container-uniquefeatures-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-uniquefeatures-card h2 {
+  font-family: "Josefin Sans";
+  font-size: 35px;
+  color: #151875;
+  margin-top: 97px;
+}
+
+.list-item {
+  margin-top: 29px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.list-item-red {
+  display: flex;
+  color: #f52b70;
+  display: list-item;
+}
+
+#red {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #acabc3;
+}
+
+.list-item-blue {
+  display: flex;
+  color: #2b2bf5;
+  display: list-item;
+}
+
+#blue {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #acabc3;
+}
+
+.list-item-green {
+  display: flex;
+  color: #2bf5cc;
+  display: list-item;
+}
+
+#green {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #acabc3;
+}
+
+.container-card-button-price {
+  display: flex;
+  flex-direction: row;
+  margin-top: 46px;
+  gap: 19px;
+}
+
+.container-uniquefeatures-card-button {
+  width: 157px;
+  height: 45px;
+  background: #fb2e86;
+  border-radius: 2px;
+  font-family: "Josefin Sans";
+  font-size: 17px;
+  color: #ffffff;
+  padding: 14px 24px;
+  cursor: pointer;
+}
+
+.container-price {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.container-price p {
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  line-height: 16px;
+  color: #151875;
+  margin-top: 5px;
+}
+
+.container-price #price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #151875;
+}

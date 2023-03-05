@@ -1,0 +1,115 @@
+.container-discountitem {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-discountitem-card1 {
+  width: 375px;
+  margin-top: 126px;
+}
+
+.container-discountitem-card1 h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Josefin Sans";
+  font-size: 42px;
+  color: #151875;
+}
+
+.container-discountitem-card1 ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  width: 375px;
+  justify-content: space-between;
+  margin-top: 33px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #151875;
+}
+
+.container-discountitem-card2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 111px;
+}
+
+.container-discountitem-subcard h4 {
+  font-family: "Josefin Sans";
+  font-size: 35px;
+  color: #151875;
+}
+
+.container-discountitem-subcard span {
+  font-family: "Josefin Sans";
+  font-size: 21px;
+  color: #fb2e86;
+  margin-top: 16px;
+}
+
+.container-discountitem-subcard p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #b7bacb;
+  margin-top: 20px;
+}
+
+.container-discountitem-list1 {
+  margin-top: 28px;
+  gap: 44px;
+}
+
+.container-discountitem-list2 {
+  margin-top: 10px;
+  gap: 75px;
+}
+
+.container-discountitem-list1,
+.container-discountitem-list2 {
+  display: flex;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #b8b8dc;
+  list-style: none;
+}
+
+.container-discountitem-list1 li:before {
+  content: "✓";
+  margin-right: 6px;
+  color: #7569b2;
+}
+
+.container-discountitem-list2 li:before {
+  content: "✓";
+  margin-right: 6px;
+  color: #7569b2;
+}
+
+.container-discountitem-subcard button {
+  width: 200px;
+  height: 57px;
+  font-family: "Josefin Sans";
+  font-size: 17px;
+  line-height: 20px;
+  background-color: #fb2e86;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+}
+
+.container-discountitem-img {
+  position: relative;
+  bottom: 130px;
+  left: 30px;
+}

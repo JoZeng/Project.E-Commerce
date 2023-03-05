@@ -1,0 +1,192 @@
+.trendingprodcuts {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-trendingprodcuts-h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Josefin Sans";
+  font-size: 42px;
+  color: #151875;
+  margin-top: 132px;
+}
+
+.container-trendingprodcuts-card-chair {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  margin-top: 39px;
+}
+
+.container-trendingprodcuts-chair {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 350px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.container-trendingprodcuts-cardimg {
+  display: flex;
+  justify-content: center;
+  width: 247px;
+  height: 244px;
+  background: #f5f6f8;
+}
+
+.container-trendingprodcuts-chair-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.container-trendingprodcuts-chair-details h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #151875;
+}
+
+.container-trendingprodcuts-chair-details-prices {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.container-trendingprodcuts-chair-details-prices #newprice {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #151875;
+}
+
+.container-trendingprodcuts-chair-details-prices #oldprice {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration-line: line-through;
+  color: rgba(21, 24, 117, 0.3);
+}
+
+.container-trendingprodcuts-card-master-products {
+  display: flex;
+  justify-content: center;
+}
+
+.container-trendingprodcuts-card-products {
+  width: 1160px;
+  height: 270px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 29px;
+  margin-top: 39px;
+}
+
+.container-trendingprodcuts-products {
+  width: 420px;
+  height: 270px;
+}
+
+.container-trendingprodcuts-product {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin: 34px 0px 0px 25px;
+}
+
+.container-trendingprodcuts-product h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 26px;
+  color: #151875;
+}
+
+.container-trendingprodcuts-product span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration-line: underline;
+  color: #fb2e86;
+}
+
+#productred {
+  background: #fff6fb;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+}
+
+.container-trendingprodcuts-productsimg1 {
+  position: relative;
+  left: 200px;
+  bottom: 20px;
+}
+
+#productblue {
+  background: #eeeffb;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+}
+
+.container-trendingprodcuts-productsimg2 {
+  position: relative;
+  left: 90px;
+}
+
+.container-trendingprodcuts-miniproducts {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-trendingprodcuts-miniproduct {
+  width: 272px;
+  height: 74px;
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+}
+
+.container-trendingprodcuts-miniproductimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 107px;
+  height: 74px;
+  background: #f5f6f8;
+}
+
+.container-miniproducts-nameprice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.container-miniproducts-nameprice h3 {
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #151875;
+}
+
+.container-miniproducts-nameprice span {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration-line: line-through;
+  color: #151875;
+}
