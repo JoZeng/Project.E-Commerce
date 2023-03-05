@@ -1,0 +1,79 @@
+.container-promotional {
+  display: flex;
+  background-color: #f2f0ff;
+  width: 100%;
+  height: 800px;
+}
+
+.container-promotional-lamp {
+  position: absolute;
+  width: 387px;
+  height: 387px;
+  left: 70px;
+  top: 122px;
+}
+
+.container-promotional-diamond {
+  position: absolute;
+  width: 66.07px;
+  height: 14.6px;
+  left: 50%;
+  top: 870px;
+}
+
+.container-promotional {
+  display: flex;
+  justify-content: center;
+}
+
+.container-promotional-card {
+  margin: 200px 0px 0px 375px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-promotional-subcard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 27px;
+}
+
+.container-promotional-subcard span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fb2e86;
+}
+
+.container-promotional-subcard h1 {
+  font-family: "Josefin Sans";
+  font-size: 53px;
+  line-height: 82px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.container-promotional-subcard p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #8a8fb9;
+}
+
+.container-promotional-card button {
+  width: 163px;
+  height: 50px;
+  font-family: "Josefin Sans";
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background-color: #fb2e86;
+  border-style: none;
+  border-radius: 2px;
+}

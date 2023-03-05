@@ -1,0 +1,31 @@
+.container-header {
+  background-color: #7e33e0;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #f1f1f1;
+}
+
+.container-header-list-first {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+
+.container-header-list-second {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.container-header-email,
+.container-header-phone {
+  display: flex;
+  gap: 10px;
+}

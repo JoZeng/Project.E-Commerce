@@ -1,0 +1,50 @@
+.container-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 19px 0px;
+}
+
+.container-navbar-list {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+  margin-right: 227px;
+}
+
+.container-navbar-header {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 34px;
+  margin-right: 88px;
+}
+
+.container-navbar-home {
+  color: #fb2e86;
+  display: flex;
+  gap: 2px;
+}
+
+.container-navbar-search {
+  display: flex;
+  width: 317px;
+  height: 40px;
+}
+
+.container-navbar-search input {
+  display: flex;
+  width: 266px;
+}
+
+.container-magnifyingglass {
+  background: #fb2e86;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}

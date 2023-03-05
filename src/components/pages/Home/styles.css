@@ -1,0 +1,8 @@
+.container-home {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ffffff;
+}
